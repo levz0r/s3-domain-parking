@@ -4,5 +4,6 @@
     "innerHtml": "",
     "accessKeyId": "",
     "secretAccessKey": "",
-    "awsRegion": ""
+    "awsRegion": "us-east-1",
+    "showRibbon": true
 }

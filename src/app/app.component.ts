@@ -8,6 +8,7 @@ import * as config from "../../config.json";
 export class AppComponent implements OnInit {
     public domainName: string;
     public innerHtml: string;
+    public showRibbon: boolean;
 
     constructor(private readonly angulartics2GoogleGlobalSiteTag : Angulartics2GoogleGlobalSiteTag, private _renderer2 : Renderer2, @Inject(DOCUMENT)private _document : Document, private readonly title : Title) {
         if (config.trackingId) {
@@ -20,6 +21,7 @@ export class AppComponent implements OnInit {
     ngOnInit(): void {
         this.domainName = config.domainName;
         this.innerHtml = config.innerHtml;
+        this.showRibbon = config.showRibbon;
     }
 
     private initGoogleAnalyticsScript(): void {
