@@ -13,7 +13,7 @@ This project creates an S3 bucket that is configured to host a static website wi
 
 ## Limitations
 
-Because of the way S3 static website hosting works, it is not possible to create a CNAME record of the top level of your domain. Therefore, you can park `(subdomain).domain.com` (e.g `www.domain.com`). Having said that, some domain registrars (Namecheap) allow redirecting the top level domain to a subdomain.
+Because of the way S3 static website hosting works, it is not possible to create a CNAME record of the top level of your domain. Therefore, you can park `(subdomain).domain.com` (e.g `www.domain.com`). Having said that, some DNS providers (Namecheap) allow redirecting the top level domain to a subdomain.
 _See question [here](https://serverfault.com/questions/410727/point-s3-bucket-to-top-level-domain)_.
 
 ## Configuration
@@ -56,4 +56,4 @@ To deploy your parking page, open terminal and run:
 2.  `npm run deploy`
 3.  When the process completes, create a CNAME record, as shown on the screen.
 
-You're all set! Visit your domain to verify the landing page works. Please note that it might take some time for some registrars to update your domain records.
+You're all set! Visit your domain to verify the landing page works. Please note that it might take some time for some DNS service providers to update your domain records.
