@@ -8,7 +8,7 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "deploy": "node deploy.js"
+        "deploy": "ng build --prod && node deploy.js"
     },
     "private": true,
     "dependencies": {
