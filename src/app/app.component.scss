@@ -1,0 +1,7 @@
+p.domain-text {
+  text-align: center;
+  font-size: 4em;
+  @media (min-width: 992px) {
+    font-size: 6em;
+  }
+}
