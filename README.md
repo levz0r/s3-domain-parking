@@ -1,6 +1,5 @@
-# S3 Domain Parking
+# AWS S3 Domain Parking
 
-Configurable lightweight domain parking page with Google Analytics support.
 ![](https://i.ibb.co/k4vT5HM/screencapture-localhost-4201-2019-04-19-21-14-57-macbookgold-front.png)
 
 This project creates an S3 bucket that is configured to host a static website with CORS enabled. All you have to do is to configure the project and create a CNAME record in your domain.
