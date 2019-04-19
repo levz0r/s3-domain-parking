@@ -10,6 +10,7 @@ This project creates an S3 bucket that is configured to host a static website wi
 2.  [Programmatic access to AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html);
 3.  Access to Domain management (Namecheap, GoDaddy, etc.);
 4.  [Google Analytics](https://analytics.google.com) account (optional).
+5.  [Node.js and npm](https://nodejs.org/en/download/) installed.
 
 ## Limitations
 
