@@ -7,7 +7,7 @@ This project creates an S3 bucket that is configured to host a static website wi
 ## Prerequisites
 
 1.  [AWS free tier account](https://aws.amazon.com/free/);
-2.  [Programmatic access to AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html);
+2.  [Programmatic access to AWS account](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html) with the following [permissions](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_controlling.html): `s3:PutObject`, `s3:PutBucketWebsite`, `s3:GetBucketWebsite`, `s3:GetBucketCORS`, `s3:PutBucketAcl`, `s3:CreateBucket`, `s3:ListBucket`, `s3:PutBucketCORS`, `s3:GetBucketAcl`, `s3:HeadBucket`, `s3:PutObjectAcl`.
 3.  Access to Domain management (Namecheap, GoDaddy, etc.);
 4.  [Google Analytics](https://analytics.google.com) account (optional).
 5.  [Node.js and npm](https://nodejs.org/en/download/) installed.
