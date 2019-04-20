@@ -103,9 +103,3 @@ const bucket_name = `www.${config.domainName}`;
     console.error(error.stack);
   }
 })();
-
-// 1. create bucket (if needed)
-
-// 2. sync dist
-
-// 3.
