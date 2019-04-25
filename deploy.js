@@ -5,7 +5,8 @@ const AWS = require("aws-sdk");
 AWS.config.loadFromPath("./config.json");
 const S3 = new AWS.S3();
 const mime = require("mime");
-const bucket_name = `www.${config.domainName}`;
+const punycode = require("punycode")
+const bucket_name = punycode.toASCII(`www.${config.domainName}`);
 
 (async () => {
   try {
